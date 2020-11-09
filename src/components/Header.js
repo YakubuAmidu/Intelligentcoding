@@ -21,7 +21,7 @@ class Header extends Component {
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
-                <Link to="/ProductScreen" className="Link Link_header">
+                <Link to="/CoursesScreen" className="Link Link_header">
                   Courses
                 </Link>
               </Nav.Link>
