@@ -45,14 +45,33 @@
 }
 
 .Courses_section {
+  padding-top: 15px;
+  padding-bottom: 20px;
   padding-left: 25px;
   padding-right: 25px;
 }
 
-.Header_courses {
+.Header_title {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Goldman", cursive;
+  font-weight: bold;
+}
+
+.LogoBox {
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .Course_logo {
   width: 100%;
+}
+
+.Begin {
+  padding: 5px 0px;
+  border: 1px solid #777;
+}
+
+.Course_courses:hover {
 }
