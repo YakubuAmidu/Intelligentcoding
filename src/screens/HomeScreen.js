@@ -13,12 +13,13 @@ const HomeScreen = () => {
           Helloo! Welcome to intelligent coding.
         </p>
         <p className="Header_secondary-main">
-          This is the right place to learn. Here you will find the best
-          resources to become a software engineer. We start you from beginning
-          to advance. It easy to use resources. Feel free to browse around.
+          This is the best place to learn. Here you will find the best resources
+          to become a software engineer as soon as possible. We start you from
+          beginning to advance. It easy to use resources. Feel free to browse
+          around.
         </p>
 
-        <Button variant="outline-light">Let get started</Button>
+        <Button variant="outline-light">LET GET STARTED</Button>
       </div>
     </div>
   );
