@@ -7,6 +7,7 @@ class CoursesScreen extends Component {
   render() {
     return (
       <div className="Courses_section">
+        <p>Courses tutorials</p>
         <Row>
           <Col>
             <div className="Header_courses">
@@ -21,6 +22,45 @@ class CoursesScreen extends Component {
           <Col>
             <div className="Header_courses">
               <img src={ReactJS} alt="img" className="Course_logo" />
+            </div>
+          </Col>
+          <Col>
+            <div className="Header_courses">
+              <img src={ReactJS} alt="img" className="Course_logo" />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div className="Header_courses">
+              <img src={ReactJS} alt="img" className="Course_logo" />
+            </div>
+          </Col>
+          <Col>
+            <div className="Header_courses">
+              <img src={ReactNative} alt="img" className="Course_logo" />
+            </div>
+          </Col>
+          <Col>
+            <div className="Header_courses">
+              <img src={ReactJS} alt="img" className="Course_logo" />
+            </div>
+          </Col>
+          <Col>
+            <div className="Header_courses">
+              <img src={ReactJS} alt="img" className="Course_logo" />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div className="Header_courses">
+              <img src={ReactJS} alt="img" className="Course_logo" />
+            </div>
+          </Col>
+          <Col>
+            <div className="Header_courses">
+              <img src={ReactNative} alt="img" className="Course_logo" />
             </div>
           </Col>
           <Col>

@@ -43,3 +43,16 @@
   color: #fff;
   font-size: 17px;
 }
+
+.Courses_section {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.Header_courses {
+  padding-bottom: 20px;
+}
+
+.Course_logo {
+  width: 100%;
+}
