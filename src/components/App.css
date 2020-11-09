@@ -11,6 +11,7 @@
 }
 
 .Header_section {
+  padding-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -34,5 +35,6 @@
 .Heading_primary-sub {
 }
 
-.Heading_secondary {
+.Heading_secondary-main {
+  font-size: 17px;
 }

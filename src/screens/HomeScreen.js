@@ -12,23 +12,22 @@ const HomeScreen = () => {
           <img src={Imageone} alt="img" className="Imagetone" />
         </div>
 
-        <div className="Heading_primary">
-          <p className="Heading_primary-main">
-            Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet,
-            consectetur
-          </p>
-          <p className="Heading_primary-sub">
-            Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet,
-            consectetur
-          </p>
+        <div className="Text_box">
+          <div className="Heading_primary">
+            <p className="Heading_primary-main">
+              Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit
+              amet, consectetur
+            </p>
+          </div>
+
+          <div className="Heading_secondary">
+            <p className="Heading_secondary-main">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>
+          </div>
         </div>
 
-        <div className="Heading_secondary">
-          <p className="Heading_secondary-main">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
-          </p>
-        </div>
         <button>Start</button>
       </div>
     </div>
