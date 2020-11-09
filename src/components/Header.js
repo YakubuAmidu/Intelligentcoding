@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="dark" expand="sm">
+        <Navbar expand="sm">
           <Navbar.Brand href="#home">
             <div className="Link Link_tailor">TAILOR SHOP</div>
           </Navbar.Brand>
