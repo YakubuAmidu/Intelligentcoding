@@ -28,7 +28,9 @@
 }
 
 .Heading_primary-main {
+  font-family: "IBM Plex Serif", serif;
   font-size: 25px;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -36,5 +38,7 @@
 }
 
 .Heading_secondary-main {
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #fff;
   font-size: 17px;
 }

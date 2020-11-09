@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import "../components/App.css";
 import Imageone from "../assets/Imageone.png";
 import Header from "../components/Header";
@@ -28,7 +29,7 @@ const HomeScreen = () => {
           </div>
         </div>
 
-        <button>Start</button>
+        <Button variant="outline-light">Find out more</Button>
       </div>
     </div>
   );
