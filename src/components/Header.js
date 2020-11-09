@@ -8,38 +8,30 @@ class Header extends Component {
       <div>
         <Navbar expand="sm">
           <Navbar.Brand href="#home">
-            <div className="Link Link_tailor">INTELIGENT-CODING</div>
+            <div className="Link Link_tailor">
+              <i class="fas fa-laptop-code"></i> INTELIGENT-CODING
+            </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#home">
                 <Link to="/#" className="Link Link_header">
-                  HOME
+                  Home
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
                 <Link to="/ProductScreen" className="Link Link_header">
-                  Product
+                  Courses
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
                 <Link to="/ServicesScreen" className="Link Link_header">
-                  Services
-                </Link>
-              </Nav.Link>
-              <Nav.Link href="#home">
-                <Link to="/BlogScreen" className="Link Link_header">
-                  Blog
-                </Link>
-              </Nav.Link>
-              <Nav.Link href="#home">
-                <Link to="/AboutScreen" className="Link Link_header">
                   About
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
-                <Link to="/ContactScreen" className="Link Link_header">
+                <Link to="/BlogScreen" className="Link Link_header">
                   Contact
                 </Link>
               </Nav.Link>

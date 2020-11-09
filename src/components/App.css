@@ -2,6 +2,17 @@
   color: #fff;
 }
 
+.Link_header:hover {
+  padding: 3px 0px;
+  text-decoration: none;
+  color: #777;
+  background-color: #fff;
+}
+
+.Link_tailor {
+  margin-right: 20px;
+}
+
 .HomeScreen_section {
   text-align: center;
   height: 100vh;
@@ -26,7 +37,8 @@
 
 .Header_secondary-main {
   margin-bottom: 30px;
-  font-family: "Pathway Gothic One", sans-serif;
+  font-family: "Faustina", serif;
+  font-weight: bold;
   color: #fff;
   font-size: 17px;
 }
