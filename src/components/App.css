@@ -14,15 +14,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 10%;
 }
 
 .Header_image {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 10%;
+  padding-bottom: 2%;
 }
 
 .Imagetwo {
   width: 60px;
   height: 80px;
+}
+
+.Heading_primary {
+  /* margin: 0 auto; */
+  text-align: justify;
+  color: #fff;
 }

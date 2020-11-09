@@ -13,10 +13,10 @@ const HomeScreen = () => {
         </div>
         <h1 className="Heading_primary">
           <span className="Heading_primary-main">
-            Lorem ipsum dolor sit amet, consectetur adipiscing
+            Lorem ipsum dolor sit amet, consectetur
           </span>
           <span className="Heading_primary-sub">
-            Lorem ipsum dolor sit amet, consectetur adipiscing
+            Lorem ipsum dolor sit amet, consectetur
           </span>
         </h1>
       </div>
