@@ -8,7 +8,7 @@ class Header extends Component {
       <div>
         <Navbar expand="sm">
           <Navbar.Brand href="#home">
-            <div className="Link Link_tailor">TAILOR SHOP</div>
+            <div className="Link Link_tailor">INTELIGENT-CODING</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
