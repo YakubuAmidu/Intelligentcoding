@@ -3,7 +3,8 @@
 }
 
 .Link_header:hover {
-  padding: 3px 0px;
+  padding: 2px 0px;
+  border-radius: 3px;
   text-decoration: none;
   color: #777;
   background-color: #fff;
