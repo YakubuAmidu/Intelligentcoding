@@ -13,8 +13,8 @@ const HomeScreen = () => {
           Start from beginning to advance. You guaranteed to become a pro.
         </h4>
       </div>
-
-      <div>
+      <hr />
+      <div className="Header-secondary">
         <h1 className="Header-course">COURSES</h1>
         <Row>
           <Col>

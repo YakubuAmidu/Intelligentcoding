@@ -12,10 +12,14 @@
 
 .HomeScreen_section {
   text-align: center;
-  height: 100vh;
+  width: 100%;
   background-image: url(../assets/backgroundImage.png);
   background-size: cover;
   background-position: top;
+}
+
+.Header-primary {
+  padding-top: 20px;
 }
 
 .Header-main {
@@ -26,4 +30,19 @@
 .Header-sub {
   font-family: "Teko", sans-serif;
   color: #fff;
+}
+
+.Header-secondary {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Header-course {
+  color: #fff;
+}
+
+.Skills {
+  border: 1px solid #777;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
 }
