@@ -20,25 +20,25 @@ const HomeScreen = () => {
           <Col>
             <div className="Skills-title">
               <p className="Skills Html">HTML</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Css">Css</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Grid">Grid</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Flexbox">Flexbox</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
         </Row>
@@ -46,25 +46,25 @@ const HomeScreen = () => {
           <Col>
             <div className="Skills-title">
               <p className="Skills Sass">Sass</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Bootstrap">Bootstrap</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Reactjs">ReactJS</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Reactnative">React native</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
         </Row>
@@ -72,25 +72,25 @@ const HomeScreen = () => {
           <Col>
             <div className="Skills-title">
               <p className="Skills Sass">Sass</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Bootstrap">Bootstrap</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Reactjs">ReactJS</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
               <p className="Skills Reactnative">React native</p>
-              <Button>Begin course</Button>
+              <Button>Begin</Button>
             </div>
           </Col>
         </Row>

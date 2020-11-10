@@ -57,6 +57,7 @@
 }
 
 .Skills-title {
+  border-radius: 10px;
   border: 1px solid #777;
   margin-bottom: 30px;
   padding-bottom: 10px;
