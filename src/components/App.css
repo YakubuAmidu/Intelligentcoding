@@ -1,0 +1,22 @@
+.Link {
+  color: #fff;
+}
+
+.Link_tailor {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Link_header {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Link_header:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #777;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 3px;
+}
