@@ -8,6 +8,16 @@
 }
 
 .Link-header {
+  text-decoration: none;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.Link-header:hover {
+  color: #777;
+  text-decoration: none;
+  background-color: #fff;
 }
 
 .HomeScreen_section {
@@ -40,6 +50,7 @@
 }
 
 .Header-course {
+  margin-bottom: 20px;
   color: #fff;
 }
 
@@ -47,5 +58,18 @@
   border: 1px solid #777;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  background-color: gold;
+  background-color: #fff;
+}
+
+.Skills-title:hover {
+  background-color: #000;
+  opacity: 1;
+}
+
+.Skills {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 5px;
+  color: #777;
 }
