@@ -19,7 +19,9 @@ const HomeScreen = () => {
           around.
         </p>
 
-        <Button variant="outline-light">LET GET STARTED</Button>
+        <Button variant="outline-light" className="Started">
+          LET GET STARTED
+        </Button>
       </div>
     </div>
   );
