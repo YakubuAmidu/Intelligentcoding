@@ -19,25 +19,25 @@ const HomeScreen = () => {
         <Row>
           <Col>
             <div className="Skills-title">
-              <p className="Skills Html">React native</p>
+              <p className="Skills Html">HTML</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
-              <p className="Skills Css">React native</p>
+              <p className="Skills Css">Css</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
-              <p className="Skills Grid">React native</p>
+              <p className="Skills Grid">Grid</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
-              <p className="Skills Flexbox">React native</p>
+              <p className="Skills Flexbox">Flexbox</p>
               <Button>Begin course</Button>
             </div>
           </Col>
@@ -45,19 +45,45 @@ const HomeScreen = () => {
         <Row>
           <Col>
             <div className="Skills-title">
-              <p className="Skills Sass">React native</p>
+              <p className="Skills Sass">Sass</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
-              <p className="Skills Bootstrap">React native</p>
+              <p className="Skills Bootstrap">Bootstrap</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
             <div className="Skills-title">
-              <p className="Skills Reactjs">React native</p>
+              <p className="Skills Reactjs">ReactJS</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div className="Skills-title">
+              <p className="Skills Reactnative">React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div className="Skills-title">
+              <p className="Skills Sass">Sass</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div className="Skills-title">
+              <p className="Skills Bootstrap">Bootstrap</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div className="Skills-title">
+              <p className="Skills Reactjs">ReactJS</p>
               <Button>Begin course</Button>
             </div>
           </Col>
