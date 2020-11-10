@@ -1,11 +1,11 @@
 import React from "react";
-import { Button, Row, Col } from "react-bootstrap";
+import { Button, Row, Col, Container } from "react-bootstrap";
 import "../components/App.css";
 import Header from "../components/Header";
 
 const HomeScreen = () => {
   return (
-    <div className="HomeScreen_section">
+    <Container fluid className="HomeScreen_section">
       <Header />
       <div className="Header-primary">
         <h1 className="Header-main">Hellooo! Welcome to Intelligent-coding</h1>
@@ -18,58 +18,58 @@ const HomeScreen = () => {
         <h1 className="Header-course">COURSES</h1>
         <Row>
           <Col>
-            <div className="Skills">
-              <p className="Html">React native</p>
+            <div className="Skills-title">
+              <p className="Skills Html">React native</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
-            <div className="Skills">
-              <p className="Css">React native</p>
+            <div className="Skills-title">
+              <p className="Skills Css">React native</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
-            <div className="Skills">
-              <p className="Grid">React native</p>
+            <div className="Skills-title">
+              <p className="Skills Grid">React native</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
-            <div className="Skills">
-              <p className="Flexbox">React native</p>
+            <div className="Skills-title">
+              <p className="Skills Flexbox">React native</p>
               <Button>Begin course</Button>
             </div>
           </Col>
         </Row>
         <Row>
           <Col>
-            <div className="Skills">
-              <p className="Sass">React native</p>
+            <div className="Skills-title">
+              <p className="Skills Sass">React native</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
-            <div className="Skills">
-              <p className="Bootstrap">React native</p>
+            <div className="Skills-title">
+              <p className="Skills Bootstrap">React native</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
-            <div className="Skills">
-              <p className="Reactjs">React native</p>
+            <div className="Skills-title">
+              <p className="Skills Reactjs">React native</p>
               <Button>Begin course</Button>
             </div>
           </Col>
           <Col>
-            <div className="Skills">
-              <p className="Reactnative">React native</p>
+            <div className="Skills-title">
+              <p className="Skills Reactnative">React native</p>
               <Button>Begin course</Button>
             </div>
           </Col>
         </Row>
       </div>
-    </div>
+    </Container>
   );
 };
 
