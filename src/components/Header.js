@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <Navbar expand="sm">
         <Navbar.Brand href="#home">
-          <div className="Link Link_tailor">
+          <div className="Link Link-tailor">
             <i class="fas fa-laptop-code"></i> INTELIGENT-CODING
           </div>
         </Navbar.Brand>
@@ -15,22 +15,22 @@ class Header extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#home">
-              <Link to="/#" className="Link Link_header">
+              <Link to="/#" className="Link Link-header">
                 Home
               </Link>
             </Nav.Link>
             <Nav.Link href="#home">
-              <Link to="/CoursesScreen" className="Link Link_header">
+              <Link to="/CoursesScreen" className="Link Link-header">
                 Courses
               </Link>
             </Nav.Link>
             <Nav.Link href="#home">
-              <Link to="/ServicesScreen" className="Link Link_header">
+              <Link to="/ServicesScreen" className="Link Link-header">
                 About
               </Link>
             </Nav.Link>
             <Nav.Link href="#home">
-              <Link to="/BlogScreen" className="Link Link_header">
+              <Link to="/BlogScreen" className="Link Link-header">
                 Contact
               </Link>
             </Nav.Link>

@@ -15,7 +15,7 @@ const HomeScreen = () => {
       </div>
 
       <div>
-        <h1 className="Header-course">Courses</h1>
+        <h1 className="Header-course">COURSES</h1>
         <Row>
           <Col>
             <div className="Skills">
