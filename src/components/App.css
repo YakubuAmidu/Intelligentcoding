@@ -17,3 +17,13 @@
   background-size: cover;
   background-position: top;
 }
+
+.Header-main {
+  font-family: "Teko", sans-serif;
+  color: #fff;
+}
+
+.Header-sub {
+  font-family: "Teko", sans-serif;
+  color: #fff;
+}
