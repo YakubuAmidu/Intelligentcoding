@@ -4,7 +4,7 @@
 
 .Link_tailor {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .Link_header {
@@ -19,4 +19,58 @@
   padding-top: 2px;
   padding-bottom: 2px;
   border-radius: 3px;
+}
+
+.HomeScreen-section {
+  background-image: url(../assets/backgroundImage.png);
+  background-position: top;
+  background-size: cover;
+  width: 100vw;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.Header-primary {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.Header-primary-main {
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+}
+
+.Header-primary-sub {
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+}
+
+.Header-courses {
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+}
+
+.Header-skills {
+  border-radius: 10px;
+  background-color: #fff;
+  color: #777;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Header-skills:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.Skills {
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+}
+
+.Price {
+  border-bottom: 1px solid #eee;
 }

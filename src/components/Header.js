@@ -19,7 +19,7 @@ class Header extends Component {
             <Nav className="mr-auto">
               <Nav.Link href="#home">
                 <Link to="/#" className="Link Link_header">
-                  HOME
+                  Home
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
