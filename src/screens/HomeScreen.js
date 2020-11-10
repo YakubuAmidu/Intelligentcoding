@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, Row, Col } from "react-bootstrap";
 import "../components/App.css";
 import Header from "../components/Header";
 
@@ -7,21 +7,67 @@ const HomeScreen = () => {
   return (
     <div className="HomeScreen_section">
       <Header />
-
       <div className="Header_primary">
-        <p className="Header_primary-main">
-          Helloo! Welcome to intelligent coding.
-        </p>
-        <p className="Header_secondary-main">
-          This is the best place to learn. Here you will find the best resources
-          to become a software engineer as soon as possible. We start you from
-          beginning to advance. It easy to use resources. Feel free to browse
-          around.
-        </p>
+        <h1>Hellooo! Welcome to Intelligent-coding</h1>
+        <h4>
+          Start from beginning to advance. You guaranteed to become a pro.
+        </h4>
+      </div>
 
-        <Button variant="outline-light" className="Started">
-          LET GET STARTED
-        </Button>
+      <div>
+        <h1>Courses</h1>
+        <Row>
+          <Col>
+            <div>
+              <p>React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <p>React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <p>React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <p>React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div>
+              <p>React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <p>React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <p>React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+          <Col>
+            <div>
+              <p>React native</p>
+              <Button>Begin course</Button>
+            </div>
+          </Col>
+        </Row>
       </div>
     </div>
   );
