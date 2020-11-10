@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import App from "./components/App";
-import { Route, Router, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
+import { Router, Switch, Route } from "react-router-dom";
+import ReactDOM from "react-dom";
 
 ReactDOM.render(
   <Router history={createBrowserHistory()}>
