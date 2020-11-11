@@ -23,13 +23,13 @@ class Header extends Component {
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
-                <Link to="/ProductScreen" className="Link Link_header">
+                <Link to="/AboutScreen" className="Link Link_header">
                   About
                 </Link>
               </Nav.Link>
               <Nav.Link href="#home">
-                <Link to="/ServicesScreen" className="Link Link_header">
-                  Cotact
+                <Link to="/ContactScreen" className="Link Link_header">
+                  Contact
                 </Link>
               </Nav.Link>
             </Nav>
