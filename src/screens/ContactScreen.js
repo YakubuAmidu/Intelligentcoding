@@ -16,7 +16,7 @@ const ContactScreen = () => {
           <i className="fab fa-linkedin Icons"></i>
         </Link>
         <Link to="/" className="Header-link">
-          <i class="fab fa-instagram-square Icons"></i>
+          <i className="fab fa-instagram-square Icons"></i>
         </Link>
         <Link to="/" className="Header-link">
           <i className="fab fa-facebook-square Icons"></i>
