@@ -110,11 +110,13 @@
 
 .Skills {
   text-transform: uppercase;
+  font-size: 15px;
   border-bottom: 1px solid #eee;
 }
 
 .Price {
   border-bottom: 1px solid #eee;
+  font-size: 15px;
 }
 
 .Contact-screen {
