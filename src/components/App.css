@@ -4,7 +4,6 @@
 
 .Link_tailor {
   font-weight: bold;
-  font-size: 20px;
 }
 
 .Link_header {
@@ -73,4 +72,18 @@
 
 .Price {
   border-bottom: 1px solid #eee;
+}
+
+.Contact-screen {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.Header-link {
+  color: #000;
+}
+
+.Icons {
+  margin-left: 10px;
+  font-size: 20px;
 }
