@@ -23,7 +23,7 @@ const SocialProfile = (props) => {
 
 const SocialProfiles = () => (
   <div>
-    <h2>Connect with me</h2>
+    <h2 className="Connect-header">Connect with me</h2>
     <div>
       {SOCIAL_PROFILES.map((SOCIAL_PROFILE) => (
         <SocialProfile key={SOCIAL_PROFILE.id} socialProfile={SOCIAL_PROFILE} />

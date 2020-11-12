@@ -24,6 +24,7 @@
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 20px;
 }
 
 .profile {
@@ -61,6 +62,15 @@
   to {
     opacity: 0;
   }
+}
+
+.Contact-screen {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.Connect-header {
+  margin-bottom: 20px;
 }
 
 .HomeScreen-section {
