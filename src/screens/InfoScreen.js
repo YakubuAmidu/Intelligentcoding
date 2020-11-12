@@ -8,7 +8,7 @@ const InfoScreen = () => {
       <Row>
         <Col sm={6}>
           <div className="Info-icons">
-            <i className="Icons" class="fab fa-bootstrap"></i>
+            <i className="Icons" class="fab fa-html5"></i>
             <p className="Info-paragraph">
               HTML stands for Hyper Text Markup Language. HTML is the standard
               markup language for creating Web pages. HTML describes the

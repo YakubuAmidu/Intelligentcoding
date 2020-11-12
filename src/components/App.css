@@ -133,6 +133,13 @@
   padding-right: 15px;
 }
 
+.fab {
+  font-size: 40px;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .Info-paragraph {
   text-align: justify;
 }
