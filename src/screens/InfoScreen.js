@@ -34,7 +34,7 @@ const InfoScreen = () => {
               JavaScript is a text-based programming language used both on the
               client-side and server-side that allows you to make web pages
               interactive. JavaScript can update and change both HTML and CSS.
-              JavaScript can calculate, manipulate and validate data.a user.
+              JavaScript can calculate, manipulate and validate data.
             </p>
           </div>
         </Col>
@@ -45,7 +45,7 @@ const InfoScreen = () => {
               React. js is an open-source JavaScript library that is used for
               building user interfaces specifically for single-page
               applications. React is a User Interface UI library. React is a
-              tool for building UI components. React is a tools used to to build
+              tool for building UI components. React is a tools used to build
               both android and IOS applications.
             </p>
           </div>
