@@ -16,7 +16,7 @@ const HomeScreen = () => {
         <Row>
           <Col xs={6}>
             <div className="Header-skills">
-              <p className="Skills">React</p>
+              <p className="Skills">HTML</p>
               <p className="Price">$15</p>
               <Button className="Begin" variant="outline-primary">
                 Begin
@@ -25,7 +25,7 @@ const HomeScreen = () => {
           </Col>
           <Col xs={6}>
             <div className="Header-skills">
-              <p className="Skills">React</p>
+              <p className="Skills">CSS</p>
               <p className="Price">$15</p>
               <Button className="Begin" variant="outline-primary">
                 Begin
@@ -34,7 +34,7 @@ const HomeScreen = () => {
           </Col>
           <Col xs={6}>
             <div className="Header-skills">
-              <p className="Skills">React</p>
+              <p className="Skills">Flexbox</p>
               <p className="Price">$15</p>
               <Button className="Begin" variant="outline-primary">
                 Begin
@@ -43,45 +43,7 @@ const HomeScreen = () => {
           </Col>
           <Col xs={6}>
             <div className="Header-skills">
-              <p className="Skills">React</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={6}>
-            <div className="Header-skills">
-              <p className="Skills">React</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col xs={6}>
-            <div className="Header-skills">
-              <p className="Skills">React</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col xs={6}>
-            <div className="Header-skills">
-              <p className="Skills">React</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col xs={6}>
-            <div className="Header-skills">
-              <p className="Skills">React</p>
+              <p className="Skills">Javascript</p>
               <p className="Price">$15</p>
               <Button className="Begin" variant="outline-primary">
                 Begin
@@ -92,7 +54,45 @@ const HomeScreen = () => {
         <Row>
           <Col xs={6}>
             <div className="Header-skills">
-              <p className="Skills">React</p>
+              <p className="Skills">Grid</p>
+              <p className="Price">$15</p>
+              <Button className="Begin" variant="outline-primary">
+                Begin
+              </Button>
+            </div>
+          </Col>
+          <Col xs={6}>
+            <div className="Header-skills">
+              <p className="Skills">Bootstrap</p>
+              <p className="Price">$15</p>
+              <Button className="Begin" variant="outline-primary">
+                Begin
+              </Button>
+            </div>
+          </Col>
+          <Col xs={6}>
+            <div className="Header-skills">
+              <p className="Skills">Animations</p>
+              <p className="Price">$15</p>
+              <Button className="Begin" variant="outline-primary">
+                Begin
+              </Button>
+            </div>
+          </Col>
+          <Col xs={6}>
+            <div className="Header-skills">
+              <p className="Skills">ReactJS</p>
+              <p className="Price">$15</p>
+              <Button className="Begin" variant="outline-primary">
+                Begin
+              </Button>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={6}>
+            <div className="Header-skills">
+              <p className="Skills">React native</p>
               <p className="Price">$15</p>
               <Button className="Begin" variant="outline-primary">
                 Begin
