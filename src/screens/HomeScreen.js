@@ -14,7 +14,7 @@ const HomeScreen = () => {
         <h1 className="Header-courses">Courses</h1>
         <br />
         <Row>
-          <Col>
+          <Col xs={6}>
             <div className="Header-skills">
               <p className="Skills">React</p>
               <p className="Price">$15</p>
@@ -23,7 +23,7 @@ const HomeScreen = () => {
               </Button>
             </div>
           </Col>
-          <Col>
+          <Col xs={6}>
             <div className="Header-skills">
               <p className="Skills">React</p>
               <p className="Price">$15</p>
@@ -32,7 +32,7 @@ const HomeScreen = () => {
               </Button>
             </div>
           </Col>
-          <Col>
+          <Col xs={6}>
             <div className="Header-skills">
               <p className="Skills">React</p>
               <p className="Price">$15</p>
@@ -41,45 +41,7 @@ const HomeScreen = () => {
               </Button>
             </div>
           </Col>
-          <Col>
-            <div className="Header-skills">
-              <p className="Skills">React</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <div className="Header-skills">
-              <p className="Skills">React</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col>
-            <div className="Header-skills">
-              <p className="Skills">React</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col>
-            <div className="Header-skills">
-              <p className="Skills">React</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col>
+          <Col xs={6}>
             <div className="Header-skills">
               <p className="Skills">React</p>
               <p className="Price">$15</p>
@@ -90,7 +52,7 @@ const HomeScreen = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={6}>
             <div className="Header-skills">
               <p className="Skills">React</p>
               <p className="Price">$15</p>
@@ -99,7 +61,7 @@ const HomeScreen = () => {
               </Button>
             </div>
           </Col>
-          <Col>
+          <Col xs={6}>
             <div className="Header-skills">
               <p className="Skills">React</p>
               <p className="Price">$15</p>
@@ -108,7 +70,7 @@ const HomeScreen = () => {
               </Button>
             </div>
           </Col>
-          <Col>
+          <Col xs={6}>
             <div className="Header-skills">
               <p className="Skills">React</p>
               <p className="Price">$15</p>
@@ -117,7 +79,45 @@ const HomeScreen = () => {
               </Button>
             </div>
           </Col>
-          <Col>
+          <Col xs={6}>
+            <div className="Header-skills">
+              <p className="Skills">React</p>
+              <p className="Price">$15</p>
+              <Button className="Begin" variant="outline-primary">
+                Begin
+              </Button>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={6}>
+            <div className="Header-skills">
+              <p className="Skills">React</p>
+              <p className="Price">$15</p>
+              <Button className="Begin" variant="outline-primary">
+                Begin
+              </Button>
+            </div>
+          </Col>
+          <Col xs={6}>
+            <div className="Header-skills">
+              <p className="Skills">React</p>
+              <p className="Price">$15</p>
+              <Button className="Begin" variant="outline-primary">
+                Begin
+              </Button>
+            </div>
+          </Col>
+          <Col xs={6}>
+            <div className="Header-skills">
+              <p className="Skills">React</p>
+              <p className="Price">$15</p>
+              <Button className="Begin" variant="outline-primary">
+                Begin
+              </Button>
+            </div>
+          </Col>
+          <Col xs={6}>
             <div className="Header-skills">
               <p className="Skills">React</p>
               <p className="Price">$15</p>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HomeScreen from "../screens/HomeScreen";
 import AboutScreen from "../screens/AboutScreen";
 import ContactScreen from "../screens/ContactScreen";
+import InfoScreen from "../screens/InfoScreen";
 import Header from "./Header";
 
 class App extends Component {
@@ -10,6 +11,8 @@ class App extends Component {
       <div>
         <Header />
         <HomeScreen />
+        <hr />
+        <InfoScreen />
         <hr />
         <AboutScreen />
         <hr />
