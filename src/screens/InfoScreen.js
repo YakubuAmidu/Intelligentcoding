@@ -18,12 +18,12 @@ const InfoScreen = () => {
         </Col>
         <Col sm={6}>
           <div className="Info-icons">
-            <p className="Icons css">CSS</p>
+            <p className="Icons reactnative">REACT NATIVE</p>
             <p className="Info-paragraph">
-              CSS stands for Cascading Style Sheets which is used to style your
-              web pages like headlines, paragraphs, and it also allow you to
-              embed images, and videos. It helps you to add, and change colors.
-              Css allows you to specifies how your page should be layout.
+              React Native is a popular JavaScript-based mobile app framework
+              that allows you to build natively-rendered mobile apps for iOS and
+              Android. It provides a slick, smooth and responsive user
+              interface, while significantly reducing load time
             </p>
           </div>
         </Col>
