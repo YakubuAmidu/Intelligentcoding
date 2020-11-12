@@ -9,7 +9,7 @@ const InfoScreen = () => {
         <Col sm={6}>
           <div className="Info-icons">
             <i className="Icons" class="fab fa-bootstrap"></i>
-            <p>
+            <p className="Info-paragraph">
               HTML stands for Hyper Text Markup Language. HTML is the standard
               markup language for creating Web pages. HTML describes the
               structure of a Web page. HTML consists of a series of elements.
@@ -20,7 +20,7 @@ const InfoScreen = () => {
         <Col sm={6}>
           <div className="Info-icons">
             <i className="Icons" class="fab fa-bootstrap"></i>
-            <p>
+            <p className="Info-paragraph">
               What is Bootstrap? Bootstrap is a potent front-end framework used
               to create modern websites and web apps. It's open-source and free
               to use, yet features numerous HTML and CSS templates for UI
@@ -32,7 +32,7 @@ const InfoScreen = () => {
         <Col sm={6}>
           <div className="Info-icons">
             <i className="Icons" class="fab fa-bootstrap"></i>
-            <p>
+            <p className="Info-paragraph">
               HTML stands for Hyper Text Markup Language. HTML is the standard
               markup language for creating Web pages. HTML describes the
               structure of a Web page. HTML consists of a series of elements.
@@ -43,7 +43,7 @@ const InfoScreen = () => {
         <Col sm={6}>
           <div className="Info-icons">
             <i className="Icons" class="fab fa-bootstrap"></i>
-            <p>
+            <p className="Info-paragraph">
               HTML stands for Hyper Text Markup Language. HTML is the standard
               markup language for creating Web pages. HTML describes the
               structure of a Web page. HTML consists of a series of elements.

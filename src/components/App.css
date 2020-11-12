@@ -126,3 +126,13 @@
 .InfoScreen-section {
   text-align: center;
 }
+
+.Info-icons {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Info-paragraph {
+  text-align: justify;
+}
