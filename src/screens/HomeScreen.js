@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const HomeScreen = () => {
   return (
@@ -10,48 +10,25 @@ const HomeScreen = () => {
         <h4 className="Header-primary-sub">
           We start you from beginning to advance and to pro
         </h4>
-        <br />
-        <h1 className="Header-courses">Courses</h1>
-        <br />
+      </div>
+      <hr />
+
+      <Container className="container-course">
         <Row>
-          <Col xs={6}>
-            <div className="Header-skills">
-              <p className="Skills">HTML</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
+          <Col>
+            <div className="Header-course-main">
+              <i class="fas fa-globe"></i>
+              <div className="Header-course-sub">Web Development</div>
             </div>
           </Col>
-          <Col xs={6}>
-            <div className="Header-skills">
-              <p className="Skills">JAVASCRIPT</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col xs={6}>
-            <div className="Header-skills">
-              <p className="Skills">REACTJS</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col xs={6}>
-            <div className="Header-skills">
-              <p className="Skills">REACT NATIVE</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
+          <Col>
+            <div className="Header-course-main">
+              <i class="fas fa-mobile-alt"></i>
+              <div className="Header-course-sub">Mobile app Development</div>
             </div>
           </Col>
         </Row>
-      </div>
+      </Container>
     </Container>
   );
 };

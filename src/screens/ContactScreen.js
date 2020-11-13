@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import SocialProfiles from "../components/SocialProfiles";
 
 const ContactScreen = () => {
   return (
-    <div className="Contact-screen">
+    <Container fluid className="Contact-screen">
       <SocialProfiles />
-    </div>
+    </Container>
   );
 };
 

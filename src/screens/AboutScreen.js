@@ -43,16 +43,4 @@ class AboutScreen extends Component {
   }
 }
 
-//   return (
-//     <div>
-//       <h1>AboutScreen</h1>
-//       <img src={profile} alt="profile-img" className="Profile-image" />
-//       <h1>Hello!</h1>
-//       <p>My name is Yakubu.</p>
-//       <Title />
-//       <p>I am React native and ReactJS engineer.</p>
-//     </div>
-//   );
-// };
-
 export default AboutScreen;
