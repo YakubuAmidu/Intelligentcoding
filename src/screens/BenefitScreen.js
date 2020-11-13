@@ -1,10 +1,33 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const BenefitScreen = () => {
   return (
-    <Container>
-      <h1>BenefitScreen()</h1>
+    <Container fluid>
+      <p className="Gain">What you will gain</p>
+      <Row>
+        <Col>
+          <div className="Header-gain">
+            <p>Build a professional Portfolio Website</p>
+            <p>Build a professional Portfolio Website</p>
+            <p>Build a professional Portfolio Website</p>
+          </div>
+        </Col>
+        <Col>
+          <div className="Header-gain">
+            <p>Build a professional Portfolio Website</p>
+            <p>Build a professional Portfolio Website</p>
+            <p>Build a professional Portfolio Website</p>
+          </div>
+        </Col>
+        <Col>
+          <div className="Header-gain">
+            <p>Build a professional Portfolio Website</p>
+            <p>Build a professional Portfolio Website</p>
+            <p>Build a professional Portfolio Website</p>
+          </div>
+        </Col>
+      </Row>
     </Container>
   );
 };
