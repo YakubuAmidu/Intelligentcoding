@@ -73,3 +73,28 @@
   text-align: center;
   padding-top: 30px;
 }
+
+.Header-primary {
+  padding-bottom: 30px;
+}
+
+.Header-primary-main {
+  color: #fff;
+}
+
+.Header-primary-sub {
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+}
+
+.Header-course-main {
+  background-color: #fff;
+  border-bottom: 3px solid red;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #777;
+}
+
+.iconone {
+  font-size: 30px;
+}

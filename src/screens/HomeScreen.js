@@ -11,19 +11,18 @@ const HomeScreen = () => {
           We start you from beginning to advance and to pro
         </h4>
       </div>
-      <hr />
 
       <Container className="container-course">
         <Row>
           <Col>
             <div className="Header-course-main">
-              <i class="fas fa-globe"></i>
+              <i class="fas fa-globe iconone"></i>
               <div className="Header-course-sub">Web Development</div>
             </div>
           </Col>
           <Col>
             <div className="Header-course-main">
-              <i class="fas fa-mobile-alt"></i>
+              <i class="fas fa-mobile-alt iconone"></i>
               <div className="Header-course-sub">Mobile app Development</div>
             </div>
           </Col>
