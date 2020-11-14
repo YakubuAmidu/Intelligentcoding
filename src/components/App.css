@@ -74,20 +74,24 @@
   padding-top: 30px;
 }
 
-.Header-primary {
+.HomeScreen-primary {
   padding-bottom: 30px;
 }
 
-.Header-primary-main {
+.HomeScreen-primary-main {
   color: #fff;
 }
 
-.Header-primary-sub {
+.HomeScreen-primary-sub {
   font-family: "Bebas Neue", cursive;
   color: #fff;
 }
 
-.Header-course-main {
+.Container-course {
+  text-align: center;
+}
+
+.HomeScreen-course-main {
   background-color: #fff;
   border-bottom: 3px solid red;
   padding-top: 15px;

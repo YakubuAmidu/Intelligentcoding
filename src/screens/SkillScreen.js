@@ -3,40 +3,40 @@ import { Row, Col, Button, Container } from "react-bootstrap";
 
 const SkillScreen = () => {
   return (
-    <Container className="Skills-section">
-      <h1 className="Header-title">Courses</h1>
+    <Container className="SkillScreen-section">
+      <h1 className="SkillScreenr-title">Courses</h1>
       <br />
       <Row>
-        <Col xs={6}>
-          <div className="Header-skills">
-            <p className="Skills">HTML</p>
+        <Col xs={6} className="SkillScreen-primary">
+          <div className="SkillScreen-primary-main">
+            <p className="Skill html">HTML</p>
             <p className="Price">$15</p>
             <Button className="Begin" variant="outline-primary">
               Begin
             </Button>
           </div>
         </Col>
-        <Col xs={6}>
-          <div className="Header-skills">
-            <p className="Skills">JAVASCRIPT</p>
+        <Col xs={6} className="SkillScreen-primary">
+          <div className="SkillScreen-primary-main">
+            <p className="Skills JavaScript">JAVASCRIPT</p>
             <p className="Price">$15</p>
             <Button className="Begin" variant="outline-primary">
               Begin
             </Button>
           </div>
         </Col>
-        <Col xs={6}>
-          <div className="Header-skills">
-            <p className="Skills">REACTJS</p>
+        <Col xs={6} className="SkillScreen-primary">
+          <div className="SkillScreen-primary-main">
+            <p className="Skills reactjs">REACTJS</p>
             <p className="Price">$15</p>
             <Button className="Begin" variant="outline-primary">
               Begin
             </Button>
           </div>
         </Col>
-        <Col xs={6}>
-          <div className="Header-skills">
-            <p className="Skills">REACT NATIVE</p>
+        <Col xs={6} className="SkillScreen-primary">
+          <div className="SkillScreen-primary-main">
+            <p className="Skills reactnative">REACT NATIVE</p>
             <p className="Price">$15</p>
             <Button className="Begin" variant="outline-primary">
               Begin

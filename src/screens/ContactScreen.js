@@ -4,7 +4,7 @@ import SocialProfiles from "../components/SocialProfiles";
 
 const ContactScreen = () => {
   return (
-    <Container fluid className="Contact-screen">
+    <Container fluid className="ContactScreen-section">
       <SocialProfiles />
     </Container>
   );
