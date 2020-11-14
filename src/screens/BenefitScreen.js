@@ -4,43 +4,77 @@ import { Container, Row, Col } from "react-bootstrap";
 const BenefitScreen = () => {
   return (
     <Container fluid className="BenefitScreen-section">
-      <p className="Benefit">What you will benefit</p>
-      <Container className="Benefit-container">
+      <h1 className="BenefitScreen-primary-title">What you will benefit</h1>
+      <Container fluid className="BenefitScreen-primary">
         <Row>
-          <Col>
-            <div className="Header-benefit">
-              <p className="Benefit-paragraph">
+          <Col sm={4}>
+            <div className="BenefitScreen-primary-main">
+              <i class="fas fa-flask"></i>
+              <h4 className="BenefitScreen-title-main">Learn real world</h4>
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
-              <p className="Benefit-paragraph">
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
-              <p className="Benefit-paragraph">
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
-              <p className="Benefit-paragraph">
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
-              <p className="Benefit-paragraph">
+              <p className="BenefitScreen-primary-sub">
+                Build a professional Portfolio Website
+              </p>
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
             </div>
           </Col>
-          <Col>
-            <div className="Header-gain">
-              <p className="Benefit-paragraph">
+          <Col sm={4}>
+            <div className="BenefitScreen-primary-main">
+              <i class="fas fa-flask"></i>
+              <h4 className="BenefitScreen-title-main">Learn real world</h4>
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
-              <p className="Benefit-paragraph">
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
-              <p className="Benefit-paragraph">
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
-              <p className="Benefit-paragraph">
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
-              <p className="Benefit-paragraph">
+              <p className="BenefitScreen-primary-sub">
+                Build a professional Portfolio Website
+              </p>
+              <p className="BenefitScreen-primary-sub">
+                Build a professional Portfolio Website
+              </p>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div className="BenefitScreen-primary-main">
+              <i class="fas fa-flask"></i>
+              <h4 className="BenefitScreen-title-main">Learn real world</h4>
+              <p className="BenefitScreen-primary-sub">
+                Build a professional Portfolio Website
+              </p>
+              <p className="BenefitScreen-primary-sub">
+                Build a professional Portfolio Website
+              </p>
+              <p className="BenefitScreen-primary-sub">
+                Build a professional Portfolio Website
+              </p>
+              <p className="BenefitScreen-primary-sub">
+                Build a professional Portfolio Website
+              </p>
+              <p className="BenefitScreen-primary-sub">
+                Build a professional Portfolio Website
+              </p>
+              <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
             </div>

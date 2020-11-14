@@ -15,25 +15,29 @@ class AboutScreen extends Component {
     return (
       <div className="App">
         <img src={profile} alt="profile" className="profile" />
-        <h1>Hello!</h1>
-        <p>My name is Yakubu.</p>
+        <h1 className="App-title">Hello!</h1>
+        <p className="App-paragraph">My name is Yakubu.</p>
         <Title />
-        <p>I am React native and ReactJS engineer.</p>
+        <p className="App-paragraph">I am React native and ReactJS engineer.</p>
         {this.state.displayBio ? (
           <div>
-            <p>I live California, and I code everyday</p>
-            <p>My favorite languate is Javascript, and it is awesome.</p>
-            <p>
+            <p className="App-paragraph">
+              I live California, and I code everyday
+            </p>
+            <p className="App-paragraph">
+              My favorite languate is Javascript, and it is awesome.
+            </p>
+            <p className="App-paragraph">
               Besides coding, I also love to work out and live a healthy
               lifstyle.
             </p>
-            <Button variant="dark" onClick={this.toggleDisplayBio}>
+            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
               Show less
             </Button>
           </div>
         ) : (
           <div>
-            <Button variant="dark" onClick={this.toggleDisplayBio}>
+            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
               Read more
             </Button>
           </div>

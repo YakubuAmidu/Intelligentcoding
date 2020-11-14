@@ -8,7 +8,9 @@ const HomeScreen = () => {
         <h1 className="HomeScreen-primary-main">
           Welcome to intelligent coding
         </h1>
-        <h4 className="Header-primary-sub">You have made the best choice.</h4>
+        <h4 className="HomeScreen-primary-sub">
+          You have made the best choice.
+        </h4>
         <h4 className="HomeScreen-primary-sub">
           We start you from beginning to advance and to pro
         </h4>

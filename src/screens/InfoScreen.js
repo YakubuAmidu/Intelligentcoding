@@ -4,10 +4,10 @@ import { Container, Col, Row } from "react-bootstrap";
 const InfoScreen = () => {
   return (
     <Container fluid className="InfoScreen-section">
-      <Container>
+      <Container className="InfoScreen-primary">
         <Row>
-          <Col sm={6} className="InfoScreen-primary">
-            <div className="InfoScreen-main">
+          <Col sm={6} className="InfoScreen-main">
+            <div className="InfoScreen-sub">
               <p className="InfoScreen html">HTML</p>
               <p className="InfoScreen-paragraph">
                 HTML stands for Hyper Text Markup Language. HTML is the standard
@@ -17,8 +17,8 @@ const InfoScreen = () => {
               </p>
             </div>
           </Col>
-          <Col sm={6} className="InfoScreen-primary">
-            <div className="InfoScreen-main">
+          <Col sm={6} className="InfoScreen-main">
+            <div className="InfoScreen-sub">
               <p className="InfoScreen reactnative">REACT NATIVE</p>
               <p className="InfoScreen-paragraph">
                 React Native is a popular JavaScript-based mobile app framework
@@ -28,9 +28,9 @@ const InfoScreen = () => {
               </p>
             </div>
           </Col>
-          <Col sm={6} className="InfoScreen-primary">
-            <div className="InfoScreen-main">
-              <p className="InfoScreen bootstrap">JASCRIPT</p>
+          <Col sm={6} className="InfoScreen-main">
+            <div className="InfoScreen-sub">
+              <p className="InfoScreen JavaScript">JASCRIPT</p>
               <p className="InfoScreen-paragraph">
                 JavaScript is a text-based programming language used both on the
                 client-side and server-side that allows you to make web pages
@@ -39,9 +39,9 @@ const InfoScreen = () => {
               </p>
             </div>
           </Col>
-          <Col sm={6} className="InfoScreen-primary">
-            <div className="InfoScreen-main">
-              <p className="InfoScreen flexbox">REACT</p>
+          <Col sm={6} className="InfoScreen-main">
+            <div className="InfoScreen-sub">
+              <p className="InfoScreen reactjs">REACT</p>
               <p className="InfoScreen-paragraph">
                 React. js is an open-source JavaScript library that is used for
                 building user interfaces specifically for single-page
