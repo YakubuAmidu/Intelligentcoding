@@ -10,7 +10,7 @@ const BenefitScreen = () => {
           <Col sm={4}>
             <div className="BenefitScreen-primary-main">
               <i class="fas fa-flask"></i>
-              <h4 className="BenefitScreen-title-main">Learn real world</h4>
+              <h5 className="BenefitScreen-title-main">build real project</h5>
               <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
@@ -34,7 +34,7 @@ const BenefitScreen = () => {
           <Col sm={4}>
             <div className="BenefitScreen-primary-main">
               <i class="fas fa-flask"></i>
-              <h4 className="BenefitScreen-title-main">Learn real world</h4>
+              <h5 className="BenefitScreen-title-main">Learn real world</h5>
               <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>
@@ -58,7 +58,7 @@ const BenefitScreen = () => {
           <Col sm={4}>
             <div className="BenefitScreen-primary-main">
               <i class="fas fa-flask"></i>
-              <h4 className="BenefitScreen-title-main">Learn real world</h4>
+              <h5 className="BenefitScreen-title-main">Learn real world</h5>
               <p className="BenefitScreen-primary-sub">
                 Build a professional Portfolio Website
               </p>

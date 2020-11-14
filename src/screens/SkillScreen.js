@@ -5,7 +5,7 @@ const SkillScreen = () => {
   return (
     <Container fluid className="SkillScreen-section">
       <Container>
-        <h1 className="SkillScreen-title">Courses</h1>
+        <h1 className="SkillScreen-title">Pursuit your goals</h1>
         <Row>
           <Col xs={6} className="SkillScreen-primary">
             <div className="SkillScreen-primary-main">
