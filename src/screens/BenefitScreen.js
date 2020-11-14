@@ -9,7 +9,7 @@ const BenefitScreen = () => {
         <Row>
           <Col sm={4}>
             <div className="BenefitScreen-primary-main">
-              <i class="fas fa-flask"></i>
+              <i class="fas fa-gem"></i>
               <h5 className="BenefitScreen-title-main">
                 Foundation of web Development
               </h5>
@@ -35,7 +35,7 @@ const BenefitScreen = () => {
           </Col>
           <Col sm={4}>
             <div className="BenefitScreen-primary-main">
-              <i class="fas fa-flask"></i>
+              <i class="fas fa-gem"></i>
               <h5 className="BenefitScreen-title-main">
                 Foundation of mobile app Development
               </h5>
@@ -61,7 +61,7 @@ const BenefitScreen = () => {
           </Col>
           <Col sm={4}>
             <div className="BenefitScreen-primary-main">
-              <i class="fas fa-flask"></i>
+              <i class="fas fa-gem"></i>
               <h5 className="BenefitScreen-title-main">
                 Advance and pro level
               </h5>
