@@ -27,9 +27,7 @@ const HomeScreen = () => {
           <Col>
             <div className="HomeScreen-course-main">
               <i class="fas fa-mobile-alt iconone"></i>
-              <div className="HomeScreen-course-sub">
-                Mobile app Development
-              </div>
+              <div className="HomeScreen-course-sub">App Development</div>
             </div>
           </Col>
         </Row>
