@@ -76,9 +76,12 @@
   text-align: center;
 }
 
-.BenefitScreen-primary {
+.BenefitScreen-primary-main {
   background-color: #eee;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
@@ -94,6 +97,8 @@
 }
 
 .BenefitScreen-primary-sub {
+  text-align: justify;
+  line-height: 16px;
   color: #777;
 }
 
