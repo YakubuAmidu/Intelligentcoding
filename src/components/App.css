@@ -25,6 +25,15 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
+  color: #777;
+}
+
+.App-paragraph {
+  color: #777;
+}
+
+.Show {
+  color: #777;
 }
 
 .profile {

@@ -31,13 +31,21 @@ class AboutScreen extends Component {
               Besides coding, I also love to work out and live a healthy
               lifstyle.
             </p>
-            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
+            <Button
+              variant="outline-dark"
+              onClick={this.toggleDisplayBio}
+              className="Show"
+            >
               Show less
             </Button>
           </div>
         ) : (
           <div>
-            <Button variant="outline-dark" onClick={this.toggleDisplayBio}>
+            <Button
+              variant="outline-dark"
+              onClick={this.toggleDisplayBio}
+              className="Show"
+            >
               Read more
             </Button>
           </div>
