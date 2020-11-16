@@ -179,6 +179,9 @@
 }
 
 .SkillScreen-primary-sub {
+  background-color: #fff;
+  padding-bottom: 15px;
+  padding-top: 15px;
   margin-bottom: 20px;
 }
 

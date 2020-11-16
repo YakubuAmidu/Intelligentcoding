@@ -14,8 +14,8 @@ const BenefitScreen = () => {
                 Fundamental principles of web Development
               </h5>
               <p className="BenefitScreen-primary-sub">
-                <i class="fas fa-check"></i> Gain skills to apply for jobs in
-                web development.
+                <i class="fas fa-check" className="Checkmark-icon"></i> Gain
+                skills to apply for jobs in web development.
               </p>
               <p className="BenefitScreen-primary-sub">
                 <i class="fas fa-check"></i> Build real project to show your
