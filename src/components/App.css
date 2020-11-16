@@ -103,6 +103,16 @@
   color: #777;
 }
 
+.ContactScreen-section {
+  background-image: url(../assets/backgroundImage.png);
+  background-position: top;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .HomeScreen-section {
   background-image: url(../assets/backgroundImage.png);
   background-position: top;
@@ -139,88 +149,44 @@
   font-size: 30px;
 }
 
-.SkillScreen-section {
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.SkillScreen-title {
-  font-family: "Faustina", serif;
-  text-transform: uppercase;
-  border-bottom: 1px solid #777;
-  color: #777;
-}
-
-.SkillScreen-primary-main {
-  border-radius: 10px;
-  background-color: #eee;
-  margin-bottom: 25px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-
-.SkillScreen-primary-main:hover {
-  background-color: green;
-  color: #fff;
-}
-
-.Skill {
-  border-bottom: 1px solid #fff;
-  color: #777;
-}
-
-.Price {
-  border-bottom: 1px solid #fff;
-  color: #777;
-}
-
-.InfoScreen-sub {
-  text-align: center;
-}
-
-.html {
-  background-color: #eee;
-  border-radius: 5px;
-  color: #777;
-  margin: 0 auto;
-  width: 80px;
-}
-
-.reactnative {
-  background-color: #eee;
-  border-radius: 5px;
-  color: #777;
-  margin: 0 auto;
-  width: 130px;
-}
-
-.JavaScript {
-  background-color: #eee;
-  border-radius: 5px;
-  color: #777;
-  margin: 0 auto;
-  width: 100px;
-}
-
-.reactjs {
-  background-color: #eee;
-  border-radius: 5px;
-  margin: 0 auto;
-  color: #777;
-  width: 80px;
-}
-
 .InfoScreen-paragraph {
   text-align: justify;
   color: #777;
 }
 
-.ContactScreen-section {
-  background-image: url(../assets/backgroundImage.png);
-  background-position: top;
-  background-size: cover;
-  color: #fff;
+.InfoScreen {
+  background-color: #eee;
+  border-radius: 10px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  color: #777;
+}
+
+.SkillScreen-title {
+  text-align: center;
+  color: #777;
+  text-transform: uppercase;
+  font-family: "Faustina", serif;
+}
+
+.SkillScreen-primary-main {
+  background-color: #eee;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.SkillScreen-primary-sub {
+  margin-bottom: 20px;
+}
+
+.SkillScreen-paragraph {
+  color: #777;
+  text-transform: uppercase;
+}
+
+.Begin {
+  color: #777;
 }

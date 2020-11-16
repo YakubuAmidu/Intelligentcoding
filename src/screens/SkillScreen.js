@@ -4,43 +4,41 @@ import { Row, Col, Button, Container } from "react-bootstrap";
 const SkillScreen = () => {
   return (
     <Container fluid className="SkillScreen-section">
-      <Container>
-        <h1 className="SkillScreen-title">Pursuit your goals</h1>
+      <h1 className="SkillScreen-title">Pursuit your goals</h1>
+      <Container fluid className="SkillScreen-primary">
         <Row>
-          <Col xs={6} className="SkillScreen-primary">
+          <Col sm={6}>
             <div className="SkillScreen-primary-main">
-              <p className="Skill">HTML</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
+              <div className="SkillScreen-primary-sub">
+                <p className="SkillScreen-paragraph">
+                  html, css, grid, flexbox
+                </p>
+                <Button variant="outline-dark" className="Begin">
+                  Begin
+                </Button>
+              </div>
+              <div className="SkillScreen-primary-sub">
+                <p className="SkillScreen-paragraph">ReactJS</p>
+                <Button variant="outline-dark" className="Begin">
+                  Begin
+                </Button>
+              </div>
             </div>
           </Col>
-          <Col xs={6} className="SkillScreen-primary">
+          <Col sm={6} className="SkillScreen-primary">
             <div className="SkillScreen-primary-main">
-              <p className="Skill">JAVASCRIPT</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col xs={6} className="SkillScreen-primary">
-            <div className="SkillScreen-primary-main">
-              <p className="Skill">REACTJS</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
-            </div>
-          </Col>
-          <Col xs={6} className="SkillScreen-primary">
-            <div className="SkillScreen-primary-main">
-              <p className="Skill">REACT NATIVE</p>
-              <p className="Price">$15</p>
-              <Button className="Begin" variant="outline-primary">
-                Begin
-              </Button>
+              <div className="SkillScreen-primary-sub">
+                <p className="SkillScreen-paragraph">Javascript</p>
+                <Button variant="outline-dark" className="Begin">
+                  Begin
+                </Button>
+              </div>
+              <div className="SkillScreen-primary-sub">
+                <p className="SkillScreen-paragraph">React native</p>
+                <Button variant="outline-dark" className="Begin">
+                  Begin
+                </Button>
+              </div>
             </div>
           </Col>
         </Row>
