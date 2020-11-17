@@ -177,6 +177,11 @@
   font-family: "Faustina", serif;
 }
 
+.SkillScreen-primary {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .SkillScreen-primary-main {
   background-color: #eee;
   margin-bottom: 25px;
