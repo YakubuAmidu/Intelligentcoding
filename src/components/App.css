@@ -1,3 +1,8 @@
+.Navbar {
+  max-width: 870px;
+  margin: 0 auto;
+}
+
 .Link {
   color: #fff;
 }
@@ -85,6 +90,10 @@
   text-align: center;
 }
 
+.BenefitScreen-primary {
+  max-width: 900px;
+}
+
 .BenefitScreen-primary-main {
   background-color: #eee;
   margin-bottom: 25px;
@@ -113,6 +122,7 @@
 }
 
 .ContactScreen-section {
+  max-width: 900px;
   background-image: url(../assets/backgroundImage.png);
   background-position: top;
   background-size: cover;
@@ -123,6 +133,7 @@
 }
 
 .HomeScreen-section {
+  max-width: 870px;
   background-image: url(../assets/backgroundImage.png);
   background-position: top;
   background-size: cover;
@@ -158,6 +169,10 @@
   font-size: 30px;
 }
 
+.InfoScreen-primary {
+  max-width: 900px;
+}
+
 .InfoScreen-paragraph {
   text-align: justify;
   color: #777;
@@ -178,7 +193,7 @@
 }
 
 .SkillScreen-primary {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
 }
 

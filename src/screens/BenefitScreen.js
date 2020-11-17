@@ -39,15 +39,14 @@ const BenefitScreen = () => {
             <div className="BenefitScreen-primary-main">
               <i class="fas fa-gem"></i>
               <h5 className="BenefitScreen-title-main">
-                Fundamental principles of mobile app Development
+                Fundamental principles of app Development
               </h5>
               <p className="BenefitScreen-primary-sub">
                 <i class="fas fa-check"></i> Build real app project with react
                 native.
               </p>
               <p className="BenefitScreen-primary-sub">
-                <i class="fas fa-check"></i> Understand the difference between
-                state, and props.
+                <i class="fas fa-check"></i> Understand the state, and props.
               </p>
               <p className="BenefitScreen-primary-sub">
                 <i class="fas fa-check"></i> Develop apps that are unique, fun,
@@ -55,7 +54,7 @@ const BenefitScreen = () => {
               </p>
               <p className="BenefitScreen-primary-sub">
                 <i class="fas fa-check"></i> Master the process of using
-                component to build UIs.
+                component.
               </p>
               <p className="BenefitScreen-primary-sub">
                 <i class="fas fa-check"></i> Build on both Android and iOS
