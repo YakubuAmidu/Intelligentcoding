@@ -189,9 +189,14 @@
 
 .SkillScreen-primary-sub {
   background-color: #fff;
+  border-bottom: 2px solid gold;
   padding-bottom: 15px;
   padding-top: 15px;
   margin-bottom: 20px;
+}
+
+.SkillScreen-primary-sub:hover {
+  background-color: green;
 }
 
 .SkillScreen-paragraph {
@@ -199,6 +204,14 @@
   text-transform: uppercase;
 }
 
+.SkillScreen-paragraph:hover {
+  color: #fff;
+}
+
 .Begin {
   color: #777;
+}
+
+.Begin:hover {
+  color: #fff;
 }
